@@ -37,15 +37,15 @@ git clone https://github.com/your-username/mini-task-manager-backend.git
 then replace the values with your own values
 
 ```javascript
-export const PORT = process.env.PORT || 3000;
-export const DB = process.env.DB || "mongodb://localhost:27017/module_18";
-export const JWT_KEY = "aksdjnalakjdslakjna238954243n'awfk[";
+export const PORT = 3000;
+export const DB = "<mogourl>";
+export const JWT_KEY = "<your jwt key>";
 export const JWT_EXPIRE_TIME = "1d";
 
 export const EMAIL_HOST = "smtp.gmail.com";
 export const EMAIL_PORT = 465;
-export const EMAIL_USER = "tanvirmahfuz22@gmail.com";
-export const EMAIL_PASSWORD = "phditzpyznuqntkl";
+export const EMAIL_USER = "<your email>";
+export const EMAIL_PASSWORD = "<your password>";
 
 export const WEB_CACHE = false;
 export const MAX_CACHE_SIZE = "10MB";
